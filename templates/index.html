@@ -10,12 +10,13 @@
 
     <ul class="posts">
       {%- for page in section.pages %}
-        {%- if page.date and not page.draft %}
+        {%- if page.date and not page.draft and page.taxonomies.tags is not containing("archive") %}
           {{ macros::post_item(page=page) }}
         {%- endif -%}
       {%- endfor -%}
     </ul>
 
-    {{ macros::feed() }}
+    <a href={{ get_url(path="atom.xml") }}>📰 feed</a>
+    <a href={{ get_url(path="/tags/archive") }}>📼 archive</a>
   </main>
 {% endblock %}
