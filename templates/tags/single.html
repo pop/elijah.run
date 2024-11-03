@@ -2,6 +2,7 @@
 {% import "macros.html" as macros %}
 
 {%- block main -%}
+{% set feed_path = "tags/" ~ term.name ~ "/atom.xml" %}
   <main>
     <h1>#{{ term.name }}</h1>
 
