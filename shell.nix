@@ -8,6 +8,7 @@ mkShell rec {
   ];
   buildInputs = [
     tmux
+    pandoc
     zola
   ];
 }

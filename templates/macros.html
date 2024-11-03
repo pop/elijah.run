@@ -1,0 +1,37 @@
+{%- macro table_of_contents(toc, max_level) %}
+<ul>
+  {%- for header in toc %}
+    <li>
+      <a href="{{ header.permalink | safe }}">{{ header.title }}</a>
+        {%- if header.children and header.level < max_level %}
+          {{- self::table_of_contents(toc=header.children, max_level=max_level) | indent() | safe() }}
+        {%- endif %}
+    </li>
+  {%- endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro post_item(page) %}
+<li class=post>
+  <div class=title>
+    <a href="{{ page.permalink }}">{{ page.title }}</a>
+  </div>
+  <div class=info>
+    <span class=date>
+      <time datetime="{{ page.date | date(format='%+') }}" pubdate>
+        {{ page.date | date(format=config.extra.date_format) }}
+      </time>
+    </span>
+    <span class=tags>
+      {% for term in page.taxonomies.tags %}
+      {% set info = get_taxonomy_term(kind="tags", term=term) %}
+      <a href="{{ get_url(path=info.path) }}">#{{ info.name }}</a>
+      {% endfor %}
+    </span>
+  </div>
+</li>
+{% endmacro post_item %}
+
+{% macro feed() %}
+<a href={{ get_url(path="atom.xml") }}>📰 feed</a>
+{% endmacro %}

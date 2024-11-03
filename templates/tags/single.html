@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{%- block main -%}
+  <main>
+    <h1>#{{ term.name }}</h1>
+
+    <ul class="posts">
+      {%- for page in term.pages %}
+      {{ macros::post_item(page=page) }}
+      {%- endfor %}
+    </ul>
+
+    {{ macros::feed() }}
+  </main>
+{%- endblock -%}
+
+{% block rss %}
+{% set rss_path = "tags/" ~ term.name ~ "/rss.xml" %}
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path=rss_path, trailing_slash=false) }}">
+{% endblock rss %}
