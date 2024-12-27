@@ -77,7 +77,7 @@ We also learned that this game is surprisingly fun for only having **four levels
 
 <iframe src="/garbled-circuits-game.html" height="400px" width="100%"></iframe>
 
-Permalink: <http://elijahcaine.me/garbled-circuits-game.html>
+Permalink: <http://elijah.run/garbled-circuits-game.html>
 
 ## Remote Timing Attacks
 

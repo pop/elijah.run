@@ -1,4 +1,4 @@
-title = "elijahcaine.me"
+title = "elijah.run"
 base_url = "/"
 description = "A blog about tech, media, and art"
 
@@ -45,7 +45,7 @@ max_level = 2
 visible_on_load = true
 
 [[extra.main_menu]]
-name = "(🏠 elijahcaine.me)"
+name = "(🏠 elijah.run)"
 url = "@/_index.md"
 
 [[extra.main_menu]]
