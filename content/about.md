@@ -1,12 +1,17 @@
 +++
 title = "About"
 date = "2017-07-06"
+updated = "2024-12-26"
 description = "Some metadata."
 +++
 
 ## Work
 
 The site moved recently, so I am still filling this out.
+
+## Contact
+
+You can find me... hmm... great question.
 
 ## Talks
 

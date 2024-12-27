@@ -10,7 +10,7 @@ taxonomies.tags = [
 ]
 +++
 
-*This is part 2 of a 4 part series on buying a home*. Check out [part 1](/buying-a-house-01-lets-go-shopping) for to start from the beginning.
+*This is part 2 of a 4 part series on buying a home*. Check out [part 1](@/buying-a-house-01-lets-go-shopping.md) for to start from the beginning.
 
 In this post we will talk about everything that happens between getting an offer accepted on a house and your move-in day.
 How exciting!

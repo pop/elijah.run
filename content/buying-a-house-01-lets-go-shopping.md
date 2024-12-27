@@ -16,10 +16,10 @@ This four part series will equip you, a first-time home buyer, with a bunch of k
 
 Here's the road-map:
 
-1. [Part 1: 🛒 Let's Go Shopping!](/buying-a-house-01-lets-go-shopping) in which we start looking for houses.
-2. [Part 2: 💸 Show Me the Money!](/buying-a-house-02-show-me-the-money) in which we buy a freaking house.
-3. [Part 3: 👷 Renovation Station.](/buying-a-house-03-renovation-station) in which we live in the freaking house.
-4. [Part 4: 📈 Is This Investing?](/buying-a-house-04-is-this-investing) where we figure out if we made a huge financial mistake (or achievement!)
+1. [Part 1: 🛒 Let's Go Shopping!](@/buying-a-house-01-lets-go-shopping.md) in which we start looking for houses.
+2. [Part 2: 💸 Show Me the Money!](@/buying-a-house-02-show-me-the-money.md) in which we buy a freaking house.
+3. [Part 3: 👷 Renovation Station.](@/buying-a-house-03-renovation-station.md) in which we live in the freaking house.
+4. [Part 4: 📈 Is This Investing?](@/buying-a-house-04-is-this-investing.md) where we figure out if we made a huge financial mistake (or achievement!)
 
 ------------------------------------------------------------------------
 

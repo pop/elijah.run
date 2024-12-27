@@ -183,4 +183,4 @@ Also don't be afraid to experiment. Make a copy of your program (or use [git](ht
 ------------------------------------------------------------------------
 
 This list is far from complete but it still felt worth sharing.
-If you think I missed something, [contact me](/about/#contact) and I might do a follow-up post.
+If you think I missed something, [contact me](@/about.md#contact) and I might do a follow-up post.
