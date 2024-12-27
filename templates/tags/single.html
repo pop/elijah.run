@@ -12,7 +12,7 @@
       {%- endfor %}
     </ul>
 
-    <a href={{ get_url(path=feed_path) }}>📰 feed</a>
+    <a href={{ get_url(path=feed_path | lower) }}>📰 feed</a>
   </main>
 {%- endblock -%}
 

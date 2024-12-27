@@ -1,12 +1,12 @@
 +++
-name = "Character Study: The 'try new things' couple"
+title = "Character Study: The 'try new things' couple"
 
 date = "2016-06-17"
 
 description = "Gwendolyn and Stefan love to try new things..."
 
 taxonomies.tags = [
-    "creative writing", "character study", "archive"
+    "creative writing", "archive"
 ]
 +++
 

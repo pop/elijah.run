@@ -1,31 +1,16 @@
 +++
-name = "TODO"
+title = "Graphics Coding"
 
-date = "2015-08-??"
+date = "2021-04-19"
 
-description = "TODO"
+description = "Taking a complete departure from my backend web knowledge to learn how to make pretty pictures with pixels."
 
 taxonomies.tags = [
-    "europe 2015", "travel", "portland", "archive"
+    "graphics"
 ]
+
+draft = true
 +++
-# Deploying Buildbot on Kubernetes
-
-date
-2021-04-19
-
-slug
-graphics-coding
-
-status
-draft
-
-summary
-Taking a complete departure from my backend web knowledge to learn how
-to make pretty pictures with pixels.
-
-tags
-graphics, opengl, vulkan, glsl, wgpu, image
 
 ------------------------------------------------------------------------
 

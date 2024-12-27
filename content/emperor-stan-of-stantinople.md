@@ -1,12 +1,12 @@
 +++
-name = "Emperor Stan of Stantinople"
+title = "Emperor Stan of Stantinople"
 
 date = "2016-07-01"
 
 description = "An emperor owns a steam-powered device which allows him to destroy the past."
 
 taxonomies.tags = [
-    "creative writing", "magicarealismbot", "portland", "archive"
+    "creative writing", "magicarealismbot", "archive"
 ]
 +++
 

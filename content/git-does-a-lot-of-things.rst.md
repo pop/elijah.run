@@ -1,39 +1,21 @@
 +++
-name = "TODO"
+title = "Git Does a Lot of Things"
 
-date = "2015-08-??"
+date = "2016-07-27"
 
-description = "TODO"
+description = "The title is really an understatement..."
 
 taxonomies.tags = [
-    "europe 2015", "travel", "portland", "archive"
+    "git"
 ]
 +++
-# Git Does a Lot of Things
 
-date
-2016-07-27
+I should make a tool that extends `git` to delete all of the files matched by the `.gitginore`.
+I spend way too much time crafting `find <...> | xargs rm` commands. I know, I'll call it `git clean`.
 
-slug
-git-does-a-lot-of-things
+Well... before I get too far I'll just make sure it doesn't already exist.
 
-status
-published
-
-summary
-The title is really an understatement...
-
-tags
-Git, Fun Facts
-
-I should make a tool that extends `git` to delete all of the files
-matched by the `.gitginore`. I spend way too much time crafting
-`find <...> | xargs rm` commands. I know, I'll call it `git clean`.
-
-Well... before I get too far I'll just make sure it doesn't already
-exist.
-
-``` text
+```txt
 $ man git clean
 
 GIT-CLEAN(1)                  Git Manual                       GIT-CLEAN(1)
@@ -56,7 +38,7 @@ Huh... well I... that's pretty much exactly how I would have done it...
 
 `git` *tab tab*
 
-``` text
+```txt
 add                  filter-branch        relink
 am                   format-patch         remote
 annotate             fsck                 repack
@@ -81,16 +63,10 @@ difftool             rebase               whatchanged
 fetch                reflog               worktree
 ```
 
-Ah, okay. I get it now. Git *does* do a lot of things.
+Ah, okay.
+I get it now.
+Git *does* do a lot of things.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-The above output is from <span class="title-ref">git 2.8.2</span>.
-
-</div>
+{% note() %}
+The above output is from `git 2.8.2`
+{% end %}

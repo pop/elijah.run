@@ -1,5 +1,5 @@
 +++
-name = "Debra the ghoul"
+title = "Debra the ghoul"
 
 date = "2016-07-02"
 

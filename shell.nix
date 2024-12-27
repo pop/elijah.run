@@ -7,8 +7,5 @@ mkShell rec {
     pkg-config
   ];
   buildInputs = [
-    tmux
-    pandoc
-    zola
   ];
 }

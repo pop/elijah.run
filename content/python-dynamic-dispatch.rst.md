@@ -1,34 +1,18 @@
 +++
-name = "TODO"
+title = "Dynamic Dispatch in Python"
 
-date = "2015-08-??"
+date = "2021-09-02"
 
-description = "TODO"
+description = "HeY wAnT tO SeE a NEat PYtHOn TriCK!?"
 
 taxonomies.tags = [
-    "europe 2015", "travel", "portland", "archive"
+    "python"
 ]
 +++
-# Dynamic Dispatch in Python
-
-date
-2021-09-02
-
-slug
-python-dynamic-dispatch
-
-status
-published
-
-summary
-HeY wAnT tO SeE a NEat PYtHOn TriCK!?
-
-tags
-python, dyanmic dispatch, tidbit
 
 🦝 Hey want tO see a nEat PYtHoN triCK?
 
-``` python
+```python
 def f(name: str):
     print("hiya {}".format(name))
 
@@ -39,7 +23,7 @@ locals()["f"]("Spongebob")
 
 🦝 DoEs It FiNd ThE fUnCtIoN `"f"` aNd CaLl iT?? yEaH It DoEs.
 
-``` text
+```txt
 $ python script.py
 hiya Spongebob
 ```
@@ -54,7 +38,7 @@ hiya Spongebob
 
 🐮 Are you ok? You're yelling a lot about Python again--
 
-``` python
+```python
 # shut up
 
 def test_patrick(context: TestContext):
@@ -80,8 +64,7 @@ for test in tests:
 
 🦝 Not yet.
 
-🐮 Ok... you could search your scope and find a bunch of functions with
-a name and common interface--
+🐮 Ok... you could search your scope and find a bunch of functions with a name and common interface--
 
 🦝 AND CALL THEM! DYNAMIC DISPATCH!!
 

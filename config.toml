@@ -10,10 +10,10 @@ build_search_index = false
 
 theme = "zola-bearblog"
 
-generate_feed = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
 taxonomies = [
-  { name = "categories", feed = true },
   { name = "tags", feed = true },
 ]
 
@@ -29,7 +29,8 @@ site = "site"
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
+highlight_theme = "1337"
 
 [extra]
 favicon = "/favicon.ico"
